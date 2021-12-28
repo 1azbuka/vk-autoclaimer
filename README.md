@@ -47,7 +47,7 @@ Make sure to do step-by-step again if things don't work out.
    webhook: url
    ```
 7. Run the bot.py & claimer.py.
-8. Type '!help' to see bot commands.
+8. Type "!help" to see bot commands.
 
 ## FAQ
 By the way, to inspect the SQL file that will contain most of your actions—you can use [SQLite browser](https://sqlitebrowser.org/dl/); however, it is not really needed, the claimer has initially been designed to work remotely (that's why Discord support exists), for example on a VPS. Although with this app, you can claim an URL for an already existing group (add/replace gid), that may bypass a limit from VK, which is related to group creation (ex. too many actions)
