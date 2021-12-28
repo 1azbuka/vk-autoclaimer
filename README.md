@@ -44,7 +44,7 @@ Make sure to do step-by-step again if things don't work out.
    ```
 8. Add a Discord bot on your server, create a webhook and paste it into "config.yml" file:
    ```py
-   webhook = url
+   webhook: url
    ```
 7. Run the bot.py & claimer.py.
 
