@@ -10,6 +10,7 @@ A little project that allows you to autoclaim any VK URL you want (4lulz)
 Tested on [Python 3.9.7](https://www.python.org/ftp/python/3.9.7) with **add to path** button selected along with pip.
 ```py
 requests
+pyyaml
 discord
 vk_captchasolver
 ```
@@ -19,7 +20,7 @@ Make sure to do step-by-step again if things don't work out.
 1. Install [Python 3.9.7](https://www.python.org/ftp/python/3.9.7).
 2. Open a command prompt and install modules that are required:
    ```
-   pip install requests discord vk_captchasolver
+   pip install requests pyyaml discord vk_captchasolver
    ```
 3. Generate VK Admin tokens with offline & groups scopes:
    ```
