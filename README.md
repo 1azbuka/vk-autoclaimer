@@ -29,7 +29,7 @@ Make sure to do step-by-step again if things don't work out.
    ```
    vk_token: token (make sure that you're using a token that isn't being used by autoclaimer)
    ```
-5. Put your VK tokens in the "tokens.txt" file, separated with newlines:
+5. Put your VK tokens (which will be used by autoclaimer) in the "tokens.txt" file, separated with newlines:
    ```
    token1
    token2
