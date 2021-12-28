@@ -15,7 +15,7 @@ config = yaml.safe_load(open('config.yml', 'r').read())
 
 @bot.command()
 async def help(ctx):
-    pass
+    await ctx.send('!add — add URL to the claim list\n!remove — remove URL from the claim list\n!urls — claim list\n!resolve — parse VK group/page')
 
 @bot.command()
 async def add(ctx, url):
