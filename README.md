@@ -26,8 +26,8 @@ Make sure to do step-by-step again if things don't work out.
    https://oauth.vk.com/authorize?client_id=6121396&scope=327680&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1
    ```
 4. Open "config.yml" file with any text editor and paste your VK token:
-   ```
-   vk_token: token (make sure that you're using a token that isn't being used by autoclaimer)
+   ```py
+   vk_token: token # make sure that you're using a token that isn't being used by autoclaimer
    ```
 5. Put your VK tokens (which will be used by autoclaimer) in the "tokens.txt" file, separated with newlines:
    ```
