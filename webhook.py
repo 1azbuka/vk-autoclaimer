@@ -1,10 +1,11 @@
-import requests
 from time import localtime, strftime
+import requests
+import yaml
 
-webhook = ''
+config = yaml.safe_load(open('config.yml', 'r').read())
 
 def embed(title, description, color):
-    data = requests.post(webhook, json={
+    data = requests.post(config['webhook'], json={
         'embeds': [
             {
                 'title': title,
@@ -19,7 +20,7 @@ def embed(title, description, color):
     return data
 
 def message(content):
-    data = requests.post(webhook, json={
+    data = requests.post(config['webhook'], json={
         'content': content
     })
     return data
